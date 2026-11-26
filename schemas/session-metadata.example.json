@@ -1,0 +1,46 @@
+{
+  "schema": "dexhand-reference-session/v1",
+  "session_id": "example-host-sim-0001",
+  "device": {
+    "family": "dexhand-reference",
+    "side": "left",
+    "serial": "REDACTED_FOR_PUBLIC_REPO",
+    "hardware_version": "prototype-rev-a",
+    "firmware_version": "0.1.0-reference",
+    "protocol_version": 1,
+    "calibration_version": "cal-unknown"
+  },
+  "control": {
+    "joint_count": 20,
+    "nominal_period_us": 1000,
+    "mode": "host_simulation"
+  },
+  "recording": {
+    "binary_frame_version": 1,
+    "clock_source": "host-monotonic-reference",
+    "compression": "none",
+    "integrity": "crc16-ccitt-false"
+  },
+  "sensors": {
+    "glove_tactile": {
+      "effective_points": 526,
+      "nominal_rate_hz": 120,
+      "source": "public Wuji Glove specification; not used by host simulator"
+    },
+    "glove_emf": {
+      "modules": 5,
+      "dof_per_module": 6,
+      "nominal_rate_hz": 120
+    },
+    "glove_imu": {
+      "axes": 6,
+      "nominal_rate_hz": 800
+    }
+  },
+  "task": {
+    "label": "host_simulation",
+    "operator": "optional",
+    "mode": "simulation",
+    "notes": "Non-production architecture prototype. Replace all example identifiers before sharing real sessions."
+  }
+}

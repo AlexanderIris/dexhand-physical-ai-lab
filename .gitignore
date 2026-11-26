@@ -1,0 +1,27 @@
+# Build artifacts
+/build/
+*.o
+*.a
+*.out
+*.elf
+*.bin
+*.hex
+
+# Generated recordings and local data
+*.dexlog
+*.csv
+*.jsonl
+/examples/out/
+/data/
+/recordings/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

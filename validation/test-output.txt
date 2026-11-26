@@ -1,0 +1,10 @@
+mkdir -p /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/build
+gcc -std=c11 -O2 -g -Wall -Wextra -Wpedantic -D_POSIX_C_SOURCE=200809L -I/home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/include /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/src/dex_clock_sync.c /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/src/dex_control_loop.c /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/src/dex_crc16.c /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/src/dex_protocol.c /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/src/dex_recorder.c /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/src/dex_safety.c /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/firmware/src/dex_spsc_ring.c /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/tests/test_main.c -o /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/build/dexhand_tests  -lm -lpthread
+/home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/build/dexhand_tests
+dexhand tests: ALL PASSED
+python3 /home/user/Doubao/chats/38456111797611522/dexhand-physical-ai-lab/tools/test_dexlog_decode.py
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

@@ -1,0 +1,9 @@
+file: examples/out/session.dexlog
+frames: total=1202 crc_errors=0 seq_gaps=0
+frame_counts: control_sample=1200, event=1, session_metadata=1
+control: samples=1200 cycles=0..1199 missing_cycles=0 max_cycle_time_us=6 deadline_miss_samples=0 fault_samples=0
+duration_device_s: 1.283860
+recording_gaps: markers=0 cumulative_dropped=0
+metadata: {"schema":"dexhand-reference-session/v1","device":"host-simulated-dexhand","joint_count":20,"control_period_us":1000,"note":"non-production architecture prototype"}
+event: cycle=1200 code=1000 host simulation stopped
+completeness: PASS

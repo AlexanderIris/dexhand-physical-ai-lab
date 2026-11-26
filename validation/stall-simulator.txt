@@ -1,0 +1,4 @@
+session=examples/out/stall.dexlog
+cycles=300 joints=20 ring=32 stall=120
+recorder accepted=213 dropped=90 gaps=1 pending=0 bytes=93961 backend_errors=0
+control max_cycle_us=1 deadline_misses=0 avg_cycle_ns=363

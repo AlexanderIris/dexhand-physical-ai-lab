@@ -1,0 +1,10 @@
+file: examples/out/stall.dexlog
+frames: total=213 crc_errors=0 seq_gaps=0
+frame_counts: control_sample=210, event=1, gap_marker=1, session_metadata=1
+control: samples=210 cycles=0..299 missing_cycles=90 max_cycle_time_us=0 deadline_miss_samples=0 fault_samples=0
+duration_device_s: 0.321727
+recording_gaps: markers=1 cumulative_dropped=90
+metadata: {"schema":"dexhand-reference-session/v1","device":"host-simulated-dexhand","joint_count":20,"control_period_us":1000,"note":"non-production architecture prototype"}
+event: cycle=300 code=1000 host simulation stopped
+completeness: DEGRADED_OR_INCOMPLETE
+stall_decoder_exit_code=1

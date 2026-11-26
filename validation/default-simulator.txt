@@ -1,0 +1,4 @@
+session=examples/out/session.dexlog
+cycles=1200 joints=20 ring=128 stall=0
+recorder accepted=1202 dropped=0 gaps=0 pending=0 bytes=535455 backend_errors=0
+control max_cycle_us=6 deadline_misses=0 avg_cycle_ns=309
